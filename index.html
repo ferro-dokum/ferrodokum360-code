@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <style>
+
+      img {
+        display: block;
+      }
+
+      a {
+        color:#000000;
+      }
+
+      a:hover {
+        color: #d9232e;
+        text-decoration: none;
+      }
+
+      .container {
+        max-width: 93.5rem;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+
+      .btn {
+        display: inline-block;
+        font: inherit;
+        background: none;
+        border: none;
+        color: inherit;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .btn:focus {
+        outline: 0.5rem auto #4d90fe;
+      }
+
+      .visually-hidden {
+        position: absolute !important;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px, 1px, 1px, 1px);
+      }
+      /* Gallery Section */
+
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -1rem -1rem;
+        padding-bottom: 3rem;
+      }
+
+      .gallery-item {
+        position: relative;
+        flex: 1 0 22rem;
+        margin: 1rem;
+        color: #fff;
+        cursor: pointer;
+        border: 5px solid #000000;
+      }
+
+      .gallery-item:hover .gallery-item-info,
+      .gallery-item:focus .gallery-item-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+
+      .gallery-item-info {
+        display: none;
+      }
+
+      .gallery-item-info li {
+        display: inline-block;
+        font-size: 1.7rem;
+        font-weight: 600;
+      }
+
+      .gallery-item-text {
+        margin-right: 2.2rem;
+      }
+
+      .gallery-item-type {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2.5rem;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+      }
+
+      .gallery-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+    <title>Ferro Döküm 360° Ürünler</title>
+  </head>
+  <body>
+    <header>
+     <section class="home">
+        <div class="container">
+          <nav>
+            <div id="logo">
+              <img src="./site/src/assets/images/ferro-light.png" alt="" />
+            </div>
+          </nav>
+      <!-- End of container -->
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="gallery">
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-01/ferro22.png"
+              class="gallery-image"
+              alt="Ürün 1"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-1.html">Ürün 1</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+             <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-02/ferro1.png"
+              class="gallery-image"
+              alt="Ürün 2"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-2.html">Ürün 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+     <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-03/ferro33.png"
+              class="gallery-image"
+              alt="Ürün 3"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-3.html">Ürün 3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+             <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-04/ferro1.png"
+              class="gallery-image"
+              alt="Ürün 4"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-4.html">Ürün 4</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+            <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-05/ferro35.png"
+              class="gallery-image"
+              alt="Ürün 5"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-5.html">Ürün 5</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+           <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-06/ferro21.png"
+              class="gallery-image"
+              alt="Ürün 6"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-6.html">Ürün 6</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+             <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-07/ferro33.png"
+              class="gallery-image"
+              alt="Ürün 7"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-7.html">Ürün 7</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+            <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-08/ferro37.png"
+              class="gallery-image"
+              alt="Ürün 8"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-8.html">Ürün 8</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+           <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-09/ferro22.png"
+              class="gallery-image"
+              alt="Ürün 9"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-9.html">Ürün 9</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+             <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-10/ferro22.png"
+              class="gallery-image"
+              alt="Ürün 10"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-10.html">Ürün 10</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+            <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-11/ferro1.png"
+              class="gallery-image"
+              alt="Ürün 11"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-11.html">Ürün 11</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+             <div class="gallery-item" tabindex="0">
+            <img
+              src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-12/ferro1.png"
+              class="gallery-image"
+              alt="Ürün 12"
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-text">
+                  <span class="visually-hidden"></span
+                  > <a href="./urun-12.html">Ürün 12</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End of gallery -->
+
+      </div>
+      <!-- End of container -->
+    </main>
+  <script type="text/javascript" src="bundlec8bb78f1105b48e64d92.js"></script></body>
+</html>
