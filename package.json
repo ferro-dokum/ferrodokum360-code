@@ -15,7 +15,7 @@
     "clean-site": "rm -rf site/dist",
     "build-site": "npm run clean-site && webpack --mode production  --config config/webpack-site.config.js",
     "deploy-site": "gh-pages -d site/dist",
-    "publish-site": "npm run build-demo && npm run deploy-demo"
+    "publish-site": "npm run build-site && npm run deploy-site"
   },
   "dependencies": {
     "core-js": "^3.6.5"
