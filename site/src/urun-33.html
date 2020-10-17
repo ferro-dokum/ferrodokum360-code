@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      .on-load {
+        display: none;
+      }
+
+      .spinner-grow {
+        color: #d9232e !important;
+        display: inline-block;
+        vertical-align: text-bottom;
+        background-color: currentColor;
+        border-radius: 50%;
+        opacity: 0;
+        -webkit-animation: spinner-grow 0.75s linear infinite;
+        animation: spinner-grow 0.75s linear infinite;
+        width: 100px;
+        height: 100px;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+      }
+    </style>
+    <style>
+      .cloudimage-360 .cloudimage-360-prev,
+      .cloudimage-360 .cloudimage-360-next {
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+      }
+
+      .cloudimage-360 .cloudimage-360-prev:focus,
+      .cloudimage-360 .cloudimage-360-next:focus {
+        outline: none;
+      }
+
+      .cloudimage-360 .cloudimage-360-prev {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        top: calc(50% - 15px);
+        left: -28px;
+      }
+
+      .cloudimage-360 .cloudimage-360-next {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        top: calc(50% - 15px);
+        right: -28px;
+      }
+
+      .cloudimage-360 .cloudimage-360-prev:before,
+      .cloudimage-360 .cloudimage-360-next:before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: 50% 50% / cover no-repeat;
+      }
+
+      .cloudimage-360 .cloudimage-360-prev:before {
+        background-image: url('https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/assets/img/arrow-left.svg');
+      }
+
+      .cloudimage-360 .cloudimage-360-next:before {
+        background-image: url('https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/assets/img/arrow-right.svg');
+      }
+
+      .cloudimage-360 .cloudimage-360-prev.not-active,
+      .cloudimage-360 .cloudimage-360-next.not-active {
+        opacity: 0.4;
+        cursor: default;
+      }
+    </style>
+    <title>Ferro Döküm 360° | Ürün 33</title>
+  </head>
+  <body>
+    <div id="spinner" class="spinner-grow text-dark" role="status"></div>
+    <div id="main" class="wrapper" style="visibility: hidden; overflow: hidden">
+      <section class="home">
+        <div class="container">
+          <nav>
+            <a id="logo" href="index.html">
+              <img
+                src="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-light.png"
+                alt="Ferro Döküm Logo"
+              />
+            </a>
+          </nav>
+
+          <section class="container">
+            <div class="row" style="margin-top: 40px">
+              <div class="col justify-content-center">
+                <div>
+                  <div
+                    class="cloudimage-360"
+                    data-folder="https://raw.githubusercontent.com/ferro-dokum/ferro-dokum-360-images/main/ferro-dokum-08/"
+                    data-filename="ferro{index}.png"
+                    data-amount="67"
+                    data-speed="150"
+                    data-ratio="1"
+                    data-autoplay="true"
+                    data-full-screen
+                    data-magnifier="3"
+                    data-bottom-circle
+                    data-bottom-circle-offset="2"
+                    data-responsive="scaleflex"
+                  >
+                    <button class="cloudimage-360-prev"></button>
+                    <button class="cloudimage-360-next"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

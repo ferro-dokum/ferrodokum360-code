@@ -72,9 +72,9 @@ nav {
 }
 
 @media all and (max-width: 600px) {
-  .home {
-    padding-top: 150px;
-  }
+  /* .home {
+     padding-top: 150px;
+  } */
 
   .home h1 {
     font-size: 30px;

@@ -84,6 +84,116 @@ module.exports = {
       filename: './urun-12.html',
       template: path.join(__dirname, '../site/src/urun-12.html'),
       bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-13.html',
+      template: path.join(__dirname, '../site/src/urun-13.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-14.html',
+      template: path.join(__dirname, '../site/src/urun-14.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-15.html',
+      template: path.join(__dirname, '../site/src/urun-15.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-16.html',
+      template: path.join(__dirname, '../site/src/urun-16.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-17.html',
+      template: path.join(__dirname, '../site/src/urun-6.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-18.html',
+      template: path.join(__dirname, '../site/src/urun-18.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-19.html',
+      template: path.join(__dirname, '../site/src/urun-19.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-20.html',
+      template: path.join(__dirname, '../site/src/urun-20.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-21.html',
+      template: path.join(__dirname, '../site/src/urun-21.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-22.html',
+      template: path.join(__dirname, '../site/src/urun-22.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-23.html',
+      template: path.join(__dirname, '../site/src/urun-23.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-24.html',
+      template: path.join(__dirname, '../site/src/urun-24.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-25.html',
+      template: path.join(__dirname, '../site/src/urun-25.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-26.html',
+      template: path.join(__dirname, '../site/src/urun-26.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-27.html',
+      template: path.join(__dirname, '../site/src/urun-27.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-28.html',
+      template: path.join(__dirname, '../site/src/urun-28.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-29.html',
+      template: path.join(__dirname, '../site/src/urun-29.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-30.html',
+      template: path.join(__dirname, '../site/src/urun-30.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-31.html',
+      template: path.join(__dirname, '../site/src/urun-31.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-32.html',
+      template: path.join(__dirname, '../site/src/urun-32.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-33.html',
+      template: path.join(__dirname, '../site/src/urun-33.html'),
+      bundle: []
+    }),
+    new HtmlWebpackPlugin({
+      filename: './urun-34.html',
+      template: path.join(__dirname, '../site/src/urun-34.html'),
+      bundle: []
     })
   ],
   resolve: {

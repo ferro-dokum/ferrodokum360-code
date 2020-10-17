@@ -300,9 +300,9 @@ var CI360Viewer = function () {
         ctx.drawImage(image, offsetX, offsetY, width, height);
       } else {
         this.canvas.width = this.container.offsetWidth * this.devicePixelRatio;
-        this.canvas.style.width = this.container.offsetWidth + 'px';
-        this.canvas.height = this.container.offsetWidth * this.devicePixelRatio / image.width * image.height;
-        this.canvas.style.height = this.container.offsetWidth / image.width * image.height + 'px';
+        this.canvas.style.width = this.container.offsetWidth * 0.5 + 'px';
+        this.canvas.height = this.container.offsetWidth * this.devicePixelRatio / image.width * image.height * 0.5;
+        this.canvas.style.height = this.container.offsetWidth / image.width * image.height * 0.5 + 'px';
 
         ctx.drawImage(image, 0, 0, this.canvas.width, this.canvas.height);
       }
