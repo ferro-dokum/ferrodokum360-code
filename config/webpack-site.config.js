@@ -107,7 +107,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: './urun-17.html',
-      template: path.join(__dirname, '../site/src/urun-6.html'),
+      template: path.join(__dirname, '../site/src/urun-17.html'),
       bundle: []
     }),
     new HtmlWebpackPlugin({
